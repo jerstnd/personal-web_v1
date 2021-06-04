@@ -1,0 +1,20 @@
+.navbar {
+  padding-top: 5vh;
+  height: 6vh;
+}
+
+.navbar .navbar-logo {
+  float: left;
+  margin-left: 7vh;
+}
+
+.navbar .navbar-text {
+  float: right;
+}
+
+.navbar .navbar-text a {
+  margin-right: 7vh;
+  text-decoration: none;
+  color: black;
+}
+/*# sourceMappingURL=Navbar.css.map */

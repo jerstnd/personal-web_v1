@@ -1,0 +1,15 @@
+.box-container {
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .box{
+        height: 25vh;
+        width: 40vh;
+        border-radius: 10%;
+        box-shadow: 4px 5px 18px 0px rgba(0,0,0,0.61);
+-webkit-box-shadow: 4px 5px 18px 0px rgba(0,0,0,0.61);
+-moz-box-shadow: 4px 5px 18px 0px rgba(0,0,0,0.61);
+    }
+}

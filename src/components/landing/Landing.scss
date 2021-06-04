@@ -1,0 +1,28 @@
+.landing{
+    height: calc(100vh - 11vh);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+    .landing-text{
+        padding-bottom: 25vh;
+
+        h1{
+            font-size: 5vw;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+
+        p{
+            font-size: 2vw;
+        }
+    }
+
+    .landing-img{
+        img{
+            width: 90vh;
+            height: 80vh;
+        }
+    }
+}

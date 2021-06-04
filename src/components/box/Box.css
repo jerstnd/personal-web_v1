@@ -1,0 +1,21 @@
+.box-container {
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box-container .box {
+  height: 25vh;
+  width: 40vh;
+  border-radius: 10%;
+  box-shadow: 4px 5px 18px 0px rgba(0, 0, 0, 0.61);
+  -webkit-box-shadow: 4px 5px 18px 0px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 4px 5px 18px 0px rgba(0, 0, 0, 0.61);
+}
+/*# sourceMappingURL=Box.css.map */
