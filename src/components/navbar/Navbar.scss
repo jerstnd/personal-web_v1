@@ -1,7 +1,11 @@
 
 .navbar {
-    padding-top: 5vh;
+    font-weight: 500;
+    padding-top: 4vh;
     height: 6vh;
+    position: sticky;
+    top: 0;
+    align-items: center;
 
 
     .navbar-logo{
@@ -17,4 +21,8 @@
             color: black;
         }
     }
+}
+
+.navbar.active {
+    backdrop-filter: blur(8px);
 }
