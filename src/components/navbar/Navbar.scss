@@ -20,9 +20,15 @@
             text-decoration: none;
             color: black;
         }
+        a:hover {
+            font-weight: 900;
+            color: rgba(72,37,142,255);
+            transition: .4s;
+        }
     }
 }
 
 .navbar.active {
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(20px);
+
 }
