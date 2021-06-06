@@ -29,6 +29,13 @@
 }
 
 .navbar.active {
+    z-index: 10;
+    background-color: rgba(72,37,142,255);
+    mix-blend-mode:overlay;
+    color: white;
     backdrop-filter: blur(20px);
+    a{
+        color: white;
+    }
 
 }

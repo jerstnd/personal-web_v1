@@ -4,6 +4,7 @@ import './Navbar.scss';
 const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
 
+    
     const changeBackground = () => {
         if(window.scrollY >= 37){
             setNavbar(true)
