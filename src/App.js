@@ -3,8 +3,9 @@ import Navbar from './components/navbar/Navbar.js';
 import Landing from './components/landing/Landing.js';
 import Box from './components/box/Box.js';
 import Portfolio from './components/portfolio/Portfolio.js';
-import { useEffect, useState } from 'react';
 import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer.js';
+
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Box />
         <Portfolio />
         <Contact />
+        <Footer />
       </div>
     </div>
   );

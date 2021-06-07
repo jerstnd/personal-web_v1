@@ -6,22 +6,26 @@
     position: sticky;
     top: 0;
     align-items: center;
+    //background-color: #101930;
+    //color: whitesmoke;
 
 
     .navbar-logo{
         float: left;
         margin-left: 7vh;
+        cursor: pointer;
     }
 
     .navbar-text{
         float: right;
         a{
-            margin-right: 7vh;
+            margin-right: 20px;
             text-decoration: none;
+            //color: whitesmoke;
             color: black;
         }
         a:hover {
-            font-weight: 900;
+            
             color: rgba(72,37,142,255);
             transition: .4s;
         }
@@ -32,10 +36,15 @@
     z-index: 10;
     background-color: rgba(72,37,142,255);
     mix-blend-mode:overlay;
-    color: white;
+    //color: whitesmoke;
+    color: black;
     backdrop-filter: blur(20px);
     a{
-        color: white;
+        //color: whitesmoke;
+        color: black;
+    }
+    a:hover{
+        color: black;
     }
 
 }

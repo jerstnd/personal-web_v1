@@ -2,17 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  position: relative;
 }
 
-.App backgroundapp {
-  background-image: url('./assets/bg.jpg');
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -100;
-  
-}
-
-.App content{
-  z-index: 100;
-}

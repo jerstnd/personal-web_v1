@@ -1,8 +1,10 @@
 .landing{
-    height: calc(100vh - 11vh);
+    height: calc(100vh - 6vh);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    //background-color: #101930;
+    //color: white;
 
     
     .landing-text{
@@ -20,6 +22,7 @@
     }
 
     .landing-img{
+        margin-left: -80px;
         img{
             max-width: 600px;
             width: 100%;

@@ -10,22 +10,26 @@ const Box = () => {
 
     const dataBox = {
         title : 'Lorem Ipsum',
-        decs : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+        desc : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+        title2 : '',
+        desc2 : '',
+        title3 : '',
+        desc3 : '',
     };
 
     return(
         <div className='box-container' data-aos='fade-right'>
             <div className='box'>
                 <h3>{dataBox.title}</h3>
-                <p>{dataBox.decs}</p>
+                <p>{dataBox.desc}</p>
             </div>
             <div className='box'>
                 <h3>{dataBox.title}</h3>
-                <p>{dataBox.decs}</p>
+                <p>{dataBox.desc}</p>
             </div>
             <div className='box'>
                 <h3>{dataBox.title}</h3>
-                <p>{dataBox.decs}</p>
+                <p>{dataBox.desc}</p>
             </div>
         </div>
     );

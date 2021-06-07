@@ -1,5 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, Component } from 'react';
 import './Navbar.scss';
+import {Link} from 'react-scroll'
+
 
 const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
@@ -16,11 +18,11 @@ const Navbar = () => {
 
     return (
         <div className={navbar ? 'navbar active' : 'navbar'}>
-            <div className='navbar-logo'>Jeremy Rustandi</div>
+            <div className='navbar-logo'><Link to='landing' offset={-80} smooth>Jeremy Rustandi</Link></div>
             <div className='navbar-text'>
-                <a href='#'>About</a>
-                <a href='#'>Portfolio</a>
-                <a href='#'>Contact</a>
+                <Link to='box' spy={true} smooth={true} offset={-200}><a href='#'>About</a></Link>
+                <Link to='portfolio' spy={true} smooth={true} offset={-57}><a href='#'>Portfolio</a></Link>
+                <Link to='contact' spy={true} smooth={true} offset={-75}><a href='#'>Contact</a></Link>
             </div>
         </div>
     );
