@@ -9,11 +9,11 @@ const Box = () => {
     }, []);
 
     const dataBox = {
-        title : 'Lorem Ipsum',
+        title : 'Web Developer',
         desc : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
-        title2 : '',
+        title2 : 'AI Developer',
         desc2 : '',
-        title3 : '',
+        title3 : 'Blockchain Developer',
         desc3 : '',
     };
 
@@ -24,11 +24,11 @@ const Box = () => {
                 <p>{dataBox.desc}</p>
             </div>
             <div className='box'>
-                <h3>{dataBox.title}</h3>
+                <h3>{dataBox.title2}</h3>
                 <p>{dataBox.desc}</p>
             </div>
             <div className='box'>
-                <h3>{dataBox.title}</h3>
+                <h3>{dataBox.title3}</h3>
                 <p>{dataBox.desc}</p>
             </div>
         </div>
